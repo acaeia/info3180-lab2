@@ -1,3 +1,62 @@
 body {
     padding-top: 5rem;
 }
+
+h1{
+    font-size: 1.875rem;
+}
+
+.profile-card {
+    background-color: white;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.profile-card img {
+    margin: 5px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card-bg{
+    background-color: #A777DF;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+.stats{
+    padding: 20px;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+
+    div{
+        min-width: 65px;
+    }
+}
+
+.follow-btn{
+    background-color: #1686ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.follow-btn:hover {
+    background-color: #007bff;
+}
